@@ -1,0 +1,205 @@
+/* Font Family: Roboto Condensed
+    Greenish Blue:  #34c6d3 Buttons, icons links lines and background
+    Steel Gray: #41464b Headings
+    White #fff Text with blackbackgrounds
+    black : #000
+*/
+
+body {
+  font-family: "Roboto Condensed", "sans-serif";
+}
+
+html, body {
+  height: 100%;
+}
+
+p {
+  color: #64707b;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+h3 {
+  text-transform: uppercase;
+  color: #A9A9A9;
+}
+
+/* Home section */
+
+#home {
+  height: 100%;
+}
+
+#home-cover {
+  height: 100%;
+  background-image: url("../images/bg-home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* so that the images would be as large as it can be */
+  background-position: center;
+}
+
+#home-content-box {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+
+/* it will act as a table data for the above parent*/
+
+#home-content-box-inner {
+  display: table-cell;
+  vertical-align: middle;
+  /* text-align: center; */
+}
+
+#home-heading h3 {
+  color: #fff;
+  font-size: 55px;
+  font-weight: 700;
+  margin: 20px 0 20px 0;
+  text-transform: uppercase;
+}
+
+/*All Buttons */
+
+.btn-general {
+  border-color: #fff;
+  border-width: 5px;
+  border-radius: 0;
+  padding: 12px 26px 12px 26px;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.btn-white {
+  border-color: #fff;
+  color: #fff;
+}
+
+.btn-white:hover, .btn-white:focus {
+  background-color: #fff;
+  color: #41464b;
+}
+.btn-blue {
+  border-color: #34c6d3;
+  color: #34c6d3;
+}
+
+.btn-blue:hover, .btn-blue:focus {
+  background-color: #34c6d3;
+  color: #fff;
+}
+/* parallex effect general class */
+
+.bg-parallex {
+  /* parallex effect*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* animation effects*/
+
+#home-cover {
+  animation-delay: .1s;
+  animation-duration: .5s;
+}
+
+#home-heading {
+  animation-delay: .5s;
+  animation-duration: .5s;
+}
+
+#home-btn {
+  animation-delay: 1s;
+  animation-duration: .8s;
+}
+
+/*content-box*/
+
+.content-box {
+  padding: 60px 0px 60px 0px;
+}
+
+.content-title h3 {
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 30px 0;
+}
+
+.content-title-underline {
+  width: 30px;
+  height: 3px;
+  background-color: #34c6d3;
+  margin: 0 auto 30px auto;
+  /* centre align*/
+}
+
+/* services */
+
+.service-item {
+  padding: 20px 0 20px 0;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.service-item-icon i {
+  color: #34c6d3;
+  float: left;
+  padding: 15px;
+  margin-right: 25px;
+  width: 75px;
+  height: 75px;
+  text-align: center;
+}
+
+.service-item:hover .service-item-icon i {
+  color: #fff;
+  background-color: #34c6d3
+}
+
+.service-item-title h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0 0 10px 0;
+}
+
+.service-item-desc p {
+  margin: 0;
+  padding-left: 85px;
+}
+/* about section */
+#about-content-box{
+  float: left;
+  height: 700px;
+}
+#about-content-box-outer{
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+#about-content-box-inner{
+  display: table-cell;
+  vertical-align: middle;
+}
+#about .content-title h3{
+  text-align: left;
+}
+#about .content-title-underline{
+  margin: 0 0 30px 0;
+}
+#about-desc p{
+  margin-bottom: 30px;
+}
+#about-bg-daigonal{
+  width: 60%;
+  height: 700px;
+  float: right;
+  background-image: url(../images/bg-about.jpg);
+  border-left: 200px solid #fff;
+  border-top: 700px solid transparent;
+}
