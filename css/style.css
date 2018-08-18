@@ -82,6 +82,7 @@ h3 {
   background-color: #fff;
   color: #41464b;
 }
+
 .btn-blue {
   border-color: #34c6d3;
   color: #34c6d3;
@@ -91,6 +92,7 @@ h3 {
   background-color: #34c6d3;
   color: #fff;
 }
+
 /* parallex effect general class */
 
 .bg-parallex {
@@ -172,30 +174,38 @@ h3 {
   margin: 0;
   padding-left: 85px;
 }
+
 /* about section */
-#about-content-box{
+
+#about-content-box {
   float: left;
   height: 700px;
 }
-#about-content-box-outer{
+
+#about-content-box-outer {
   width: 100%;
   height: 100%;
   display: table;
 }
-#about-content-box-inner{
+
+#about-content-box-inner {
   display: table-cell;
   vertical-align: middle;
 }
-#about .content-title h3{
+
+#about .content-title h3 {
   text-align: left;
 }
-#about .content-title-underline{
+
+#about .content-title-underline {
   margin: 0 0 30px 0;
 }
-#about-desc p{
+
+#about-desc p {
   margin-bottom: 30px;
 }
-#about-bg-daigonal{
+
+#about-bg-daigonal {
   width: 60%;
   height: 700px;
   float: right;
@@ -203,19 +213,76 @@ h3 {
   border-left: 200px solid #fff;
   border-top: 700px solid transparent;
 }
+
 /* work */
-.row.no-gutters[class*=col-]{
+
+.row.no-gutters[class*=col-] {
   padding-left: 0;
   padding-right: 0;
 }
 
-.img-wrapper{
+.img-wrapper {
   overflow: hidden;
 }
-.img-wrapper img{
+
+.img-wrapper img {
   transition: transform .5s ease;
 }
+
 .img-wrapper img:hover {
   transform: scale(1.4);
   cursor: zoom-in;
+}
+
+/* team */
+
+.team-member {
+  margin: 0 15px;
+}
+
+.team-member-info {
+  padding: 10px 0 30px 0;
+}
+
+h4.team-member-name {
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  padding-top: 20px;
+}
+
+h4.team-member-desc {
+  color: #34c6d3;
+  font-size: 15px;
+  font-weight: 700;
+  font-style: italic;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+/* social icons */
+
+.social-list {
+  padding-left: 0;
+}
+
+.social-list li {
+  list-style: none;
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  margin-right: 6px;
+  margin-top: 10px;
+}
+
+.social-icon i {
+  font-size: 17px;
+}
+
+.icon-gray {
+  color: #64707b;
+}
+
+.social-icon i:hover {
+  color: #34c6d3;
 }

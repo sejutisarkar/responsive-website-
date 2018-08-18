@@ -2,12 +2,12 @@
 //services section
 //this is a jquery document method, it executes after a page is ready
 
-$(function(){
+$(function() {
   //animate on scroll
   new WOW().init();
 });
 // work
-$(function(){
+$(function() {
   $("#work").magnificPopup({
     delegate: "a",
     type: "image",
@@ -17,11 +17,12 @@ $(function(){
   });
 });
 //carousel
-$(function(){
+$(function() {
   $("#team-members").OwlCarousel({
-    items:3,
+    items: 3,
     autoplay: true,
     smartSpeed: 700,
-    loop: true
+    loop: true,
+    autoplayHoverPause: true
   });
 });
