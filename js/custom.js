@@ -18,7 +18,35 @@ $(function() {
 });
 //carousel
 $(function() {
-  $("#team-members").OwlCarousel({
+  $("#team-members").owlCarousel({
+    items: 3,
+    autoplay: true,
+    smartSpeed: 700,
+    loop: true,
+    autoplayHoverPause: true
+  });
+});
+//testimonials
+
+$(function() {
+  $("#Customers-testimonials").owlCarousel({
+    items: 1,
+    autoplay: true,
+    smartSpeed: 700,
+    loop: true,
+    autoplayHoverPause: true
+  });
+});
+//Stats
+$(function() {
+  $('.counter').counterUp({
+    delay: 10,
+    time: 2000,
+  })
+});
+//clients
+$(function() {
+  $("#clients").owlCarousel({
     items: 3,
     autoplay: true,
     smartSpeed: 700,
